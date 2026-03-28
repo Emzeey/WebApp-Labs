@@ -1,6 +1,6 @@
 Progress:
-- Lab01 -> DONE
-- Lab02 -> DONE
-- Lab03 -> NOT DONE
-- Lab04 -> NOT DONE
-- Lab05 -> NOT DONE
+- [ ] Lab01 
+- [ ] Lab02
+- [ ] Lab03
+- [ ] Lab04
+- [ ] Lab05
