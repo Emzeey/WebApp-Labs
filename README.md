@@ -1,4 +1,6 @@
-Lab01: DONE
-Lab02: DONE
-Lab03: NOT DONE
-Lab04: NOT DONE
+Progress:
+- Lab01 -> DONE
+- Lab02 -> DONE
+- Lab03 -> NOT DONE
+- Lab04 -> NOT DONE
+- Lab05 -> NOT DONE
