@@ -214,3 +214,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.idea/workspace.xml
+.idea/WebLab.iml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
