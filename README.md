@@ -4,3 +4,6 @@ Progress:
 - [ ] Lab03
 - [ ] Lab04
 - [ ] Lab05
+- [ ] Lab06
+- [ ] Lab07
+- [ ] Lab08
