@@ -1,0 +1,13 @@
+# Przykładowy plik tekstowy
+
+Laboratorium 6 - Programowanie Aplikacji Sieciowych
+Protokół SMTP / ESMTP
+
+Ten plik jest załącznikiem w formacie MIME.
+Zakodowano go w Base64 przed wysłaniem.
+
+Funkcje MIME:
+- multipart/mixed - wiele części wiadomości
+- Content-Type - typ zawartości
+- Content-Transfer-Encoding: base64
+- Content-Disposition: attachment
