@@ -7,3 +7,5 @@ Progress:
 - [ ] Lab06
 - [ ] Lab07
 - [ ] Lab08
+- [ ] Lab09
+- [ ] Lab10
