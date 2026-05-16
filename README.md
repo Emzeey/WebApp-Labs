@@ -1,4 +1,4 @@
-Progress:
+Lab progress:
 - [x] Lab01 
 - [x] Lab02
 - [x] Lab03
