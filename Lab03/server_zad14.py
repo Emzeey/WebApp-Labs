@@ -17,7 +17,7 @@ def check_msg_syntax(txt):
                 data = tmp[6]
             except :
                 return "BAD_SYNTAX"
-            if src_port == 60788 and dst_port == 2901 and data == "programming in python is fun":
+            if src_port == 35211 and dst_port == 2900 and data == "hello :)":
                 return "TAK"
             else:
                 return "NIE"
