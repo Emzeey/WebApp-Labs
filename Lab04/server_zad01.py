@@ -17,31 +17,32 @@ if __name__ == "__main__":
         print('Bind failed. Error: ' + str(msg))
         sys.exit()
 
-    print("[%s] TCP Echo Server is waiting for incoming connections..." % strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+    print("[%s] TCP Server is waiting for incoming connections..." % strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
     try:
         while True:
             conn, address = sock.accept()
-            print(f"[{strftime('%Y-%m-%d %H:%M:%S', gmtime())}] Connected with: {address}")
+            print(f"Connected with: {address}")
 
             try:
                 while True:
                     data = conn.recv(1024)
 
                     if not data:
-                        print(f"[{strftime('%Y-%m-%d %H:%M:%S', gmtime())}] Client {address} disconnected.")
+                        print(f"Client {address} disconnected.")
                         break
 
                     print('[%s] Received %s bytes from client %s. Data: %s' % (
-                        strftime("%Y-%m-%d %H:%M:%S", gmtime()), len(data), address, data.decode()))
+                        strftime("%Y-%m-%d %H:%M:%S", gmtime()), len(data), address, data))
 
-                    if data.decode().lower() == "exit":
-                        print(f"[{strftime('%Y-%m-%d %H:%M:%S', gmtime())}] Client {address} requested exit.")
+                    decoded = data.decode()
+                    if decoded.lower() == "exit":
                         break
 
-                    conn.sendall(data)
-                    print('[%s] Echoed %s bytes back to client %s.' % (
-                        strftime("%Y-%m-%d %H:%M:%S", gmtime()), len(data), address))
+                    to_send = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                    conn.sendall(to_send.encode())
+                    print('[%s] Sent "%s" back to client %s.' % (
+                        strftime("%Y-%m-%d %H:%M:%S", gmtime()), to_send, address))
 
             finally:
                 conn.close()
