@@ -1,0 +1,11 @@
+============================================================
+Odebrano: 2026-05-16 13:26:30.183593
+Od: pas2017@interia.pl
+Do: pasinf2017@interia.pl
+============================================================
+From: <pas2017@interia.pl>
+To: <pasinf2017@interia.pl>
+Subject: Zadanie 1 - Testowy e-mail
+
+Czesc! To jest testowy e-mail z Zadania 1.
+Wysłany przez protokół ESMTP w Pythonie.

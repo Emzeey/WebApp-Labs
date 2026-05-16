@@ -1,0 +1,11 @@
+============================================================
+Odebrano: 2026-05-16 13:26:35.357034
+Od: pas2017@interia.pl
+Do: pasinf2017@interia.pl, odbiorca2@localhost, odbiorca3@localhost
+============================================================
+From: <pas2017@interia.pl>
+To: <pasinf2017@interia.pl>, <odbiorca2@localhost>, <odbiorca3@localhost>
+Subject: Zadanie 2 - Wiadomosc do wielu odbiorców
+
+Ta wiadomosc zostala wyslana do kilku odbiorcow naraz.
+Odbiorcy: pasinf2017@interia.pl, odbiorca2@localhost, odbiorca3@localhost

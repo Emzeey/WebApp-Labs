@@ -1,0 +1,13 @@
+============================================================
+Odebrano: 2026-05-16 13:26:37.623557
+Od: prezydent@gov.pl
+Do: pasinf2017@interia.pl
+============================================================
+From: Prezydent RP <prezydent@gov.pl>
+To: <pasinf2017@interia.pl>
+Subject: Zadanie 3 - Spoofed Email (DEMO)
+
+UWAGA: To jest demonstracja e-mail spoofingu!
+Adres nadawcy 'prezydent@gov.pl' jest sfałszowany.
+Pole MAIL FROM i naglowek From mozna latwo podrobić
+nie mając dostępu do konta nadawcy.

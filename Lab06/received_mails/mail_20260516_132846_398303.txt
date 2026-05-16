@@ -1,0 +1,26 @@
+============================================================
+Odebrano: 2026-05-16 13:28:46.399299
+Od: pas2017@interia.pl
+Do: mateuszzawal557@gmail.com
+============================================================
+From: <pas2017@interia.pl>
+To: <mateuszzawal557@gmail.com>
+Subject: Obrazek
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_MimeBoundaryLab6Python"
+
+------=_MimeBoundaryLab6Python
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Zalaczam plik .png
+
+------=_MimeBoundaryLab6Python
+Content-Type: image/png; name="obrazek.png"
+Content-Disposition: attachment; filename="obrazek.png"
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAEklEQVR4nGP4z8CAB+GTG8HSALfK
+Y52fTcuYAAAAAElFTkSuQmCC
+
+------=_MimeBoundaryLab6Python--

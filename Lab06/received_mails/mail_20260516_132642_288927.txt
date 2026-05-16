@@ -1,0 +1,28 @@
+============================================================
+Odebrano: 2026-05-16 13:26:42.288927
+Od: pas2017@interia.pl
+Do: pasinf2017@interia.pl
+============================================================
+From: <pas2017@interia.pl>
+To: <pasinf2017@interia.pl>
+Subject: Zadanie 5 - E-mail z zalacznikiem obrazkowym
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_MimeBoundary_Python_Lab6"
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Czesc!
+W zalaczeniu przesylam obrazek PNG zakodowany w Base64.
+Content-Type dla obrazkow PNG to: image/png
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: image/png; name="obrazek.png"
+Content-Disposition: attachment; filename="obrazek.png"
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAEklEQVR4nGP4z8CAB+GTG8HSALfK
+Y52fTcuYAAAAAElFTkSuQmCC
+
+------=_MimeBoundary_Python_Lab6--

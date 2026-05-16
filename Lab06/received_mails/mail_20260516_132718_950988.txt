@@ -1,0 +1,11 @@
+============================================================
+Odebrano: 2026-05-16 13:27:18.951987
+Od: mateuszzawal@gmail.com
+Do: test@gmail.com, test123@wp.pl, test321@interia.pl
+============================================================
+From: <mateuszzawal@gmail.com>
+To: <test@gmail.com>, <test123@wp.pl>, <test321@interia.pl>
+Subject: Temacik
+Content-Type: text/plain; charset=utf-8
+
+Pisze hej co tam :)

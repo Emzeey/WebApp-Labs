@@ -1,0 +1,96 @@
+============================================================
+Odebrano: 2026-05-16 13:30:36.153062
+Od: pas2017@interia.pl
+Do: mateuszzawal557@gmail.com, test@interia.pl, test123@wp.pl
+============================================================
+From: <pas2017@interia.pl>
+To: <mateuszzawal557@gmail.com>, <test@interia.pl>, <test123@wp.pl>
+Subject: Test
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_MimeBoundary_Python_Lab6"
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Temat: Test
+
+<b>Pogrubienie<b>
+<i>pochyulenie</i>
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #222;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    .container {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 24px;
+      max-width: 600px;
+    }
+    h1 { color: #1a5276; }
+    h2 { color: #1f618d; }
+    h3 { color: #2471a3; }
+    .highlight { background-color: #fef9e7; padding: 2px 4px; border-radius: 3px; }
+    .footer { margin-top: 24px; font-size: 12px; color: #888; border-top: 1px solid #eee; padding-top: 10px; }
+    ul { padding-left: 20px; }
+    li { margin: 4px 0; }
+    a { color: #2980b9; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>&#128231; Test</h1>
+
+  <p>
+    Oto przykładowa wiadomość z <b>pogrubionym</b>, <i>pochylonym (kursywa)</i>
+    oraz <u>podkreślonym</u> tekstem.
+  </p>
+
+  <h2>Tresc wiadomosci</h2>
+  <p>
+    <b>Pogrubienie<b><br>
+    <i>pochyulenie</i><br>
+  </p>
+
+  <h3>Przykladowe formatowanie HTML w e-mailu</h3>
+  <ul>
+    <li><b>Pogrubienie</b> &mdash; tag <code>&lt;b&gt;</code></li>
+    <li><i>Pochylenie</i> &mdash; tag <code>&lt;i&gt;</code></li>
+    <li><u>Podkreslenie</u> &mdash; tag <code>&lt;u&gt;</code></li>
+    <li><span style="color: #e74c3c;">Czerwony tekst</span> &mdash; <code>style="color: red"</code></li>
+    <li><span style="color: #27ae60;">Zielony tekst</span> &mdash; <code>style="color: green"</code></li>
+    <li><span class="highlight">Wyroznienie tlem</span> &mdash; CSS background-color</li>
+    <li><a href="https://www.ietf.org/rfc/rfc2821.txt">RFC 2821 - SMTP</a> &mdash; tag <code>&lt;a&gt;</code></li>
+  </ul>
+
+  <p>
+    <b>Laboratorium 6</b> - Programowanie Aplikacji Sieciowych<br>
+    Protokol <i>ESMTP</i> z formatowaniem <u>MIME HTML</u>
+  </p>
+
+  <div class="footer">
+    Wiadomosc wyslana przez klienta SMTP napisanego w Python (zadanie 9).
+  </div>
+
+</div>
+</body>
+</html>
+
+------=_MimeBoundary_Python_Lab6--

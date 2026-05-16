@@ -1,0 +1,33 @@
+============================================================
+Odebrano: 2026-05-16 13:26:39.828682
+Od: pas2017@interia.pl
+Do: pasinf2017@interia.pl
+============================================================
+From: <pas2017@interia.pl>
+To: <pasinf2017@interia.pl>
+Subject: Zadanie 4 - E-mail z zalacznikiem tekstowym
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_MimeBoundary_Python_Lab6"
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Czesc!
+W zalaczeniu przesylam plik tekstowy zakodowany w Base64.
+To jest demonstracja formatu MIME multipart/mixed.
+
+------=_MimeBoundary_Python_Lab6
+Content-Type: text/plain; name="zalacznik.txt"
+Content-Disposition: attachment; filename="zalacznik.txt"
+Content-Transfer-Encoding: base64
+
+IyBQcnp5a8WCYWRvd3kgcGxpayB0ZWtzdG93eQ0KDQpMYWJvcmF0b3JpdW0gNiAtIFByb2dyYW1v
+d2FuaWUgQXBsaWthY2ppIFNpZWNpb3d5Y2gNClByb3Rva8OzxYIgU01UUCAvIEVTTVRQDQoNClRl
+biBwbGlrIGplc3QgemHFgsSFY3puaWtpZW0gdyBmb3JtYWNpZSBNSU1FLg0KWmFrb2Rvd2FubyBn
+byB3IEJhc2U2NCBwcnplZCB3eXPFgmFuaWVtLg0KDQpGdW5rY2plIE1JTUU6DQotIG11bHRpcGFy
+dC9taXhlZCAtIHdpZWxlIGN6xJnFm2NpIHdpYWRvbW/Fm2NpDQotIENvbnRlbnQtVHlwZSAtIHR5
+cCB6YXdhcnRvxZtjaQ0KLSBDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiYXNlNjQNCi0gQ29u
+dGVudC1EaXNwb3NpdGlvbjogYXR0YWNobWVudA0K
+
+------=_MimeBoundary_Python_Lab6--

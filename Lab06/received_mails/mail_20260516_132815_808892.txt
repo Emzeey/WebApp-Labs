@@ -1,0 +1,31 @@
+============================================================
+Odebrano: 2026-05-16 13:28:15.809894
+Od: pas2017@interia.pl
+Do: mateuszzawal557@gmail.com
+============================================================
+From: <pas2017@interia.pl>
+To: <mateuszzawal557@gmail.com>
+Subject: Zalacznik
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_MimeBoundaryLab6Python"
+
+------=_MimeBoundaryLab6Python
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Zalaczam plik .txt
+
+------=_MimeBoundaryLab6Python
+Content-Type: text/plain; name="zalacznik.txt"
+Content-Disposition: attachment; filename="zalacznik.txt"
+Content-Transfer-Encoding: base64
+
+IyBQcnp5a8WCYWRvd3kgcGxpayB0ZWtzdG93eQ0KDQpMYWJvcmF0b3JpdW0gNiAtIFByb2dyYW1v
+d2FuaWUgQXBsaWthY2ppIFNpZWNpb3d5Y2gNClByb3Rva8OzxYIgU01UUCAvIEVTTVRQDQoNClRl
+biBwbGlrIGplc3QgemHFgsSFY3puaWtpZW0gdyBmb3JtYWNpZSBNSU1FLg0KWmFrb2Rvd2FubyBn
+byB3IEJhc2U2NCBwcnplZCB3eXPFgmFuaWVtLg0KDQpGdW5rY2plIE1JTUU6DQotIG11bHRpcGFy
+dC9taXhlZCAtIHdpZWxlIGN6xJnFm2NpIHdpYWRvbW/Fm2NpDQotIENvbnRlbnQtVHlwZSAtIHR5
+cCB6YXdhcnRvxZtjaQ0KLSBDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiYXNlNjQNCi0gQ29u
+dGVudC1EaXNwb3NpdGlvbjogYXR0YWNobWVudA0K
+
+------=_MimeBoundaryLab6Python--
