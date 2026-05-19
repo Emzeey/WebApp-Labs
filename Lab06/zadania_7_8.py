@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-Zadania 7 i 8 - Interaktywny klient SMTP z załącznikami MIME
-Zadanie 7: Załącznik plik tekstowy
-Zadanie 8: Załącznik obrazek
-BEZ gotowych bibliotek (tylko socket, base64, os, sys).
-
-Uruchom najpierw smtp_server.py.
-Użycie:
-  python zadania_7_8.py 7   -> klient z załącznikiem tekstowym
-  python zadania_7_8.py 8   -> klient z załącznikiem obrazkowym
-  python zadania_7_8.py     -> menu wyboru
-"""
-
 import socket
 import base64
 import os
@@ -21,7 +7,6 @@ SERVER = "127.0.0.1"
 PORT = 2525
 BOUNDARY = "----=_MimeBoundaryLab6Python"
 
-# Mapowanie rozszerzeń na typy MIME
 MIME_TYPES = {
     ".txt":  "text/plain",
     ".log":  "text/plain",
@@ -116,10 +101,6 @@ def ask_body() -> str:
 
 
 def send_email_with_attachment(attachment_path: str, attachment_type: str):
-    """
-    Główna funkcja wysyłania e-maila z załącznikiem.
-    attachment_type: 'text' lub 'image'
-    """
     print("\n" + "=" * 60)
     if attachment_type == "text":
         print("  Zadanie 7 - Klient SMTP z załącznikiem tekstowym")
@@ -128,7 +109,6 @@ def send_email_with_attachment(attachment_path: str, attachment_type: str):
     print("=" * 60)
     print()
 
-    # Dane użytkownika
     sender = input("Adres nadawcy (Enter = pas2017@interia.pl): ").strip()
     if not sender:
         sender = "pas2017@interia.pl"
@@ -159,7 +139,7 @@ def send_email_with_attachment(attachment_path: str, attachment_type: str):
         return
 
     print("\n--- Sesja SMTP ---")
-    c.recv()  # 220
+    c.recv()
 
     c.send("EHLO klient_zadania_7_8")
     c.recv()
@@ -186,7 +166,6 @@ def send_email_with_attachment(attachment_path: str, attachment_type: str):
     c.send("DATA")
     c.recv()
 
-    # ── Nagłówki MIME ──────────────────────────────────────────────
     c.send(f"From: <{sender}>")
     c.send(f"To: {', '.join(f'<{r}>' for r in recipients)}")
     c.send(f"Subject: {subject}")
@@ -194,7 +173,6 @@ def send_email_with_attachment(attachment_path: str, attachment_type: str):
     c.send(f'Content-Type: multipart/mixed; boundary="{BOUNDARY}"')
     c.send("")
 
-    # ── Część 1: treść tekstowa ────────────────────────────────────
     c.send(f"--{BOUNDARY}")
     c.send("Content-Type: text/plain; charset=utf-8")
     c.send("Content-Transfer-Encoding: 8bit")
@@ -203,7 +181,6 @@ def send_email_with_attachment(attachment_path: str, attachment_type: str):
         c.send(line)
     c.send("")
 
-    # ── Część 2: załącznik ─────────────────────────────────────────
     c.send(f"--{BOUNDARY}")
     c.send(f'Content-Type: {mime_type}; name="{filename}"')
     c.send(f'Content-Disposition: attachment; filename="{filename}"')
@@ -231,13 +208,11 @@ def main():
         task = input("Twoj wybor (7/8): ").strip()
 
     if task == "7":
-        # Zadanie 7 - załącznik tekstowy
         default_path = "zalacznik.txt"
         path = input(f"Sciezka do pliku tekstowego (Enter = {default_path}): ").strip()
         if not path:
             path = default_path
             if not os.path.exists(path):
-                # Tworzymy przykładowy plik
                 with open(path, "w") as f:
                     f.write("Przykladowy plik tekstowy do zadania 7.\n")
                     f.write("Protokol SMTP - Laboratorium 6\n")
@@ -246,13 +221,11 @@ def main():
         send_email_with_attachment(path, "text")
 
     elif task == "8":
-        # Zadanie 8 - załącznik obrazkowy
         default_path = "obrazek.png"
         path = input(f"Sciezka do obrazka (Enter = {default_path}): ").strip()
         if not path:
             path = default_path
             if not os.path.exists(path):
-                # Generujemy minimalny PNG programowo
                 import struct, zlib
 
                 def make_chunk(t, d):
