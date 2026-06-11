@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Serwer HTTP – PAN</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 60px auto; background: #f5f5f5; }
+        h1 { color: #2c3e50; }
+        .box { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.1); }
+        ul li { margin: 8px 0; }
+        code { background: #eee; padding: 2px 6px; border-radius: 3px; font-size: .95em; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Witaj na serwerze HTTP!</h1>
+        <p>To jest strona główna prostego serwera napisanego w Pythonie
+           na potrzeby laboratorium <strong>Programowania Aplikacji Sieciowych</strong>.</p>
+        <h2>Dostępne zasoby</h2>
+        <ul>
+            <li><code>GET /</code> lub <code>GET /index.html</code> – ta strona</li>
+            <li><code>GET /image.jpg</code> – przykładowy obraz JPEG</li>
+            <li>Dowolna nieistniejąca ścieżka zwraca <strong>404 Not Found</strong></li>
+        </ul>
+        <h2>Obsługiwane nagłówki</h2>
+        <ul>
+            <li><code>Range</code> – pobieranie częściowe (206 Partial Content)</li>
+            <li><code>If-Modified-Since</code> – warunkowe pobranie (304 Not Modified)</li>
+        </ul>
+    </div>
+</body>
+</html>
